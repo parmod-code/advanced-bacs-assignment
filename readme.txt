@@ -1,4 +1,3 @@
-# advanced-bacs-assignment
 === Woocommerce Advanced Bank Transfer Payment Gateway ===
 
 License: GPLv3
