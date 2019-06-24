@@ -180,7 +180,7 @@ final Class WC_Advanced_Bacs_Gateway extends WC_Payment_Gateway {
 
 		// we received the payment
 
-		$order->reduce_order_stock();
+		wc_reduce_stock_levels($order_id);
 
 		// Empty cart
 		$woocommerce->cart->empty_cart();
